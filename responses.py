@@ -1,16 +1,21 @@
-import random
-
 
 def get_response(message: str) -> str:
-    p_message = message.lower()
+    str_message = message.lower()
 
-    if p_message == 'hello':
-        return 'Hey There!'
+    if str_message[0:7] == '/tattle':
+        # get the next words to be the enemy name, which will be used to search the enemy db
+        # delegating tattling to its own function
+        # need a function to search the enemy db
+        return 'this is a tattle message for the enemy you named'
 
-    if message == 'roll':
-        return str(random.randint(1,6))
+    # need an if statement for more specified enemy data, if person doesn't want full info sheet every time
 
-    if p_message == '!help':
+    if str_message == '!help':
         return '`This is a help message.`'
+        # will need to pad out this statement to give a more detailed help message
 
     return 'I didn\'t understand what you wrote.'
+
+
+def get_tattle(enemy: str) -> str:
+    return ''
