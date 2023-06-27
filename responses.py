@@ -3,7 +3,6 @@ def get_response(message: str) -> str:
     str_message = message.lower()
 
     if str_message[0:7] == '/tattle':
-        # get the next words to be the enemy name, which will be used to search the enemy db
         # delegating tattling to its own function
         # need a function to search the enemy db
         return 'this is a tattle message for the enemy you named'

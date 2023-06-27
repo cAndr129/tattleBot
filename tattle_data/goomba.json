@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "name": "Goomba",
+  "description": "The underling of underlings. No other distinguishing characteristics.",
+  "level": 7,
+  "max_hp": 2,
+  "attack": 1,
+  "defense": 0,
+  "weaknesses": {
+    "sleep": 100,
+    "dizzy": 100,
+    "confuse": 100,
+    "tiny": 100,
+    "stop": 110,
+    "soft": 100,
+    "burn": 100,
+    "freeze": 100,
+    "fright": 110,
+    "gale_force": 100,
+    "KO": 150
+  },
+  "tattle": "That's a Goomba. Umm… Yeah, I'm one of those, in case you hadn't noticed. Ahem... It says here: \"Goombas are underlings of underlings.\" …That is totally rude! Their maximum HP is 2. They have an Attack power of 1 and a Defense of 0."
+}
