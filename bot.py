@@ -11,7 +11,6 @@ def run():
 
     bot = commands.Bot(command_prefix='!', intents=intents)
 
-
     @bot.event
     async def on_ready():
         logger.info(f"USER: {bot.user} (ID: {bot.user.id})")
