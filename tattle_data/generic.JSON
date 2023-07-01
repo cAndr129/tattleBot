@@ -1,0 +1,23 @@
+{
+  "id": 12345 ,
+  "name": "<name>",
+  "description": "<description>",
+  "level": 0,
+  "max_hp": 0,
+  "attack": 0,
+  "defense": 0,
+  "weaknesses": {
+    "sleep": 0,
+    "dizzy": 0,
+    "confuse": 0,
+    "tiny": 0,
+    "stop": 0,
+    "soft": 0,
+    "burn": 0,
+    "freeze": 0,
+    "fright": 0,
+    "gale_force": 0,
+    "KO": 0
+  },
+  "tattle": "<tattle>"
+}

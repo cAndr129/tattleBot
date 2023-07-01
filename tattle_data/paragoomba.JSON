@@ -1,0 +1,23 @@
+{
+  "id": 2 ,
+  "name": "paragoomba",
+  "description": "A Goomba with wings. Can't reach it with a hammer while it's in the air, but once it's damaged, its wings get clipped. It's kind of sad really.",
+  "level": 7,
+  "max_hp": 2,
+  "attack": 1,
+  "defense": 0,
+  "weaknesses": {
+    "sleep": 100,
+    "dizzy": 120,
+    "confuse": 100,
+    "tiny": 100,
+    "stop": 100,
+    "soft": 100,
+    "burn": 100,
+    "freeze": 100,
+    "fright": 110,
+    "gale_force": 110,
+    "KO": 150
+  },
+  "tattle": "That's a Paragoomba. Basically a Goomba with wings. I'm jealous! Maximum HP is 2, Attack is 1, and Defense is 0. You can't hammer it while it's flying, but rough it up and it'll totally plummet!"
+}
