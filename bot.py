@@ -1,3 +1,6 @@
+import random
+
+import tattles
 import settings
 import discord
 from discord.ext import commands
@@ -24,5 +27,17 @@ def run():
     async def ping(ctx):
         """ Answers with pong """
         await ctx.send("pong")
+
+    @bot.command()
+    async def tattle(ctx, *what):   # taking enemy name from user as arg for tattle func
+        await ctx.send(tattles.get_tattle(" ".join(what)))
+
+    @bot.command()
+    async def choices(ctx, *options):
+        await ctx.send(random.choice(options))
+
+    @bot.command()
+    async def say3(ctx, what = "what?", why = "why?"):
+        await ctx.send(what + why)
 
     bot.run(settings.DISCORD_API_SECRET, root_logger=True)
